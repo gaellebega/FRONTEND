@@ -1,0 +1,25 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/gaellebega/FRONTEND#readme",
+  "bugs": {
+    "url": "https://github.com/gaellebega/FRONTEND/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaellebega/FRONTEND.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.0",
+    "tailwindcss": "^4.3.0"
+  }
+}
