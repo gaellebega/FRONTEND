@@ -1,5 +1,6 @@
-jstify content move alll together divs along the maain axis
+JUSTFY CONTENT move alll together divs along the maain axis_
 it is always horizantal
+it works with the width
 mainly used for the logos and the menus
 
 justify-start
@@ -8,3 +9,48 @@ justify-end
 justify-between
 justify-around
 justify-evenly
+
+
+ALIGN ITEMS
+ALSO USED IN FLEX ROWS | it works with height
+
+items-start
+items-end
+items-center
+items-end
+items stretch
+
+width:100%
+height:100vh
+w-full
+h-screen
+w-1/2
+1-1/3
+padding is inside the box (PIN)
+margin is outside of the box (MOMO)
+
+align content
+
+it works when you have the multiple rows with the flex wrap
+
+flex-row it is the default flex
+items-height
+flex flex-col to make it vertical
+
+ALIGN CONTENT
+Used when we have many divs of rows inside the one div
+
+
+when you choose to use the content-center alone then make sure also to use the flex-wrap
+so think of it like the computer can not use the content alone when there is no multiple content inside it
+content-center
+content-evenly
+content-around
+content-between
+content-stretch
+content-start
+content-end
+
+
+when you used justify-center on the height then it take that element as one
+when also you use the content-align on width it take it as one
