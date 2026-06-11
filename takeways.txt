@@ -1,0 +1,10 @@
+jstify content move alll together divs along the maain axis
+it is always horizantal
+mainly used for the logos and the menus
+
+justify-start
+justify-center
+justify-end
+justify-between
+justify-around
+justify-evenly
