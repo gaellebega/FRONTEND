@@ -4,70 +4,81 @@
 <head>
   <meta charset="UTF-8">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap"
+    rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
   <title>Document</title>
 </head>
 
 <body class="bg-red-3  font-bebas">
-  <nav class="flex justify-between items-center bg-red-200">
+  <nav class="lg:flex justify-between  hidden fixed top-0 left-0  z-50 items-center  bg-[#b15f73] w-full pr-8 pl-8 ">
     <div class="flex items-center ">
       <img src="./images/logo.png" class="h-10 w-6 object-cover">
       <a href="#">
-        <p>MYLIFE</p>
+        <p class="font-oswald text-gray-800  text-xl">MYLIFE</p>
       </a>
     </div>
 
     <ul class="flex gap-12">
-      <li><a href="#">PROGRAMS</a></li>
-      <li><a href="#">PROGRAMS</a></li>
-      <li><a href="#">PROGRAMS</a></li>
-      <li><a href="#">PROGRAMS</a></li>
+      <li><a href="#" class="text-gray-800  font-oswald">PROGRAMS</a></li>
+      <li><a href="#" class="text-gray-800 font-oswald">ABOUT</a></li>
+      <li><a href="#" class="text-gray-800 font-oswald">NUTRITION</a></li>
+      <li><a href="#" class="text-gray-800 font-oswald">COMMUNITY</a></li>
     </ul>
 
-    <div class="bg-black text-white">
+    <div class="bg-gray-800 mt-1 p-1 font-oswald text-white">
       <p>Start Free</p>
     </div>
   </nav>
 
-
-  <div class=" bg-blue-200 h-screen flex">
-    <div class="z-10 relative w-1/2 font-oswald">
-      <p>YOUR FUTURE STARTS TODAY</p>
+  <div class=" bg-[#b15f73] h-screen flex flex-col pt-16 pl-5 md:flex-row">
+    <div class="z-10 relative w-2/3 font-oswald mt-28">
+      <p class="text-7xl font-bold text-amber-50">YOUR FUTURE </p>
+      <p class="text-gray-800 text-7xl font-bold whitespace-nowrap">STARTS TODAY</p>
       <p>4.8</p>
-      <p>Fitness Lovers Like you</p>
-      <div>
-        <button class="border border-white text-white rounded-3xl p-2 m-2 "> Personal training</button>
-        <button class="border border-white text-white rounded-3xl p-2 m-2 "> Personal training</button>
-        <button class="border border-white text-white rounded-3xl p-2 m-2 "> Personal training</button>
-        <button class="border border-white text-white rounded-3xl p-2 m-2 "> Personal training</button>
-        <button class="border border-white text-white rounded-3xl p-2 m-2 "> Personal training</button>
-        <button class="border border-white text-white rounded-3xl p-2 m-2 "> Personal training</button>
+      <p class="font-light">Fitness Lovers Like you</p>
+      <div class="">
+        <div class="flex gap-2 mt-4">
+          <button class="border  border-white text-white rounded-3xl p-2  font-bebas "> Personal training</button>
+          <button class="border border-white text-white rounded-3xl p-2  font-bebas "> Personal training</button>
+          <button class="border border-white text-white rounded-3xl p-2 font-bebas"> Personal training</button>
+        </div>
+        <div class="flex ml-10  w-110 gap-2 mt-4">
+          <button class="border border-white text-white rounded-3xl p-2  font-bebas"> Personal training</button>
+          <button class="border border-white text-white rounded-3xl p-2 font-bebas"> Personal training</button>
+          <button class="border border-white text-white rounded-3xl p-2  font-bebas"> Personal training</button>
+        </div>
       </div>
     </div>
-    <img src="./images/girl.png" class="h-50  object-contain top-1/2 left-1/2  z-0 w-50">
+    <img src="./images/ChatGPT_Image_Jun_12__2026__07_27_14_PM-removebg-preview (1).png"
+      class="top-1/2 left-1/2 pb-18 object-cover z-0 h-150 w-150 mb-12">
     <div class="relative z-10">
       <p>
         Lorem ipsum dolor sit,
-         amet consectetur adipisicing elit.
-          sapiente soluta perferecaecati. 
+        amet consectetur adipisicing elit.
+        sapiente soluta perferecaecati.
         Minus harum repellat expedita?
       </p>
       <div class="bg-blue-100">
-    <p>Join the community</p>
-    <div class="flex">
-      <img/>
-      <img/>
+        <p>Join the community</p>
+        <div class="flex">
+          <img />
+          <img />
 
-    </div>
-      <p>105K+ memebers</p>
-      <p>JOIN THE COMMUTNITY</p>
+        </div>
+        <p>105K+ members</p>
+        <p>JOIN THE COMMUTNITY</p>
       </div>
     </div>
   </div>
-
+  <div class="bg-blue-400">Am another section</div>
+  <div class="bg-purple-300">we are also h-screen</div>
+  <div class="bg-amber-200">We are the third nutrition</div>
+  <div class="bg-green-900">We are here the community page</div>
+  <div calss="bg-yellow-200">we are here start free login</div>
 </body>
 
 </html>

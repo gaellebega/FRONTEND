@@ -54,3 +54,9 @@ content-end
 
 when you used justify-center on the height then it take that element as one
 when also you use the content-align on width it take it as one
+
+
+
+GRIDS IN USAGE
+grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4
+
