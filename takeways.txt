@@ -74,6 +74,10 @@ element.textContent = "Hello";
 parent.appendChild(element);
 
 
+the way to use the query selector when you dont want to select all like selct one of the items you makek it like this
+document.querySelcetorAll("element.class-name")
+
+
 TASK
 CREATE THE SMALL USER PROFILE WHERE THE USER CAN EDIT NAME 
 

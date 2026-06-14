@@ -1,5 +1,5 @@
 // TASK1
-const container=document.getElementById("container1")
+let container=document.getElementById("container1")
 const newElement=document.createElement("h1")
 newElement.innerHTML="Welcome to my website"
 // missing to add the new element
@@ -13,7 +13,7 @@ anotherElement.innerHTML="Click Me"
 mybutton.appendChild(anotherElement)
 
 // TASK3
-const container=document.getElementById("container")
+let container=document.getElementById("container")
 // tagname it return the colloection of the tagnames so tobe more specific you have to say and give it the class name or the id
 const child=document.getElementsByClassName("p")
 container.removeChild(child)
@@ -25,3 +25,12 @@ const child =document.getElementById("old-text")
 const newhead=document.createElement("h2")
 newhead.innerHTML="New Text"
 parent.replaceChild(newhead,child);
+
+
+// to uind the eleent 
+
+document.getElementsByTagName("p")[0].innerHTML = "Hello";
+
+// to change the atrribute of an image
+// here we want to change our image tot he new image
+document.getElementById("my-image").src="landscape.jpg"
