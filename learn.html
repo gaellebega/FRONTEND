@@ -10,8 +10,22 @@
 <div id="container1"></div>
 <div id="box"></div>
 <div id="container">
-  <p id="message">Hello World</p>
+  <p id="id">Hello World</p>
 </div>
-<img id="my-image" src="./src/images/girl.png"/>
+<!-- <img id="my-image" src="./src/images/girl.png" class="h-10 w-50"/> -->
+
+<!-- changing the css -->
+ <div id="my-new"></div>
+ <button type="button" 
+ onclick="document.getElementById('id').style.color='blue'">
+click me</button>
+
+
+<div>
+  <p>today we have</p>
+  <p id="more" style="display:none">We have alot to talk about in the house so everyone be there on time</p>
+  <button id ="again"onclick="document.getElementById('more').style.display='block'">read moree...</button>
+
+</div>
 </body>
 </html>

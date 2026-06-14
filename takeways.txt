@@ -86,3 +86,12 @@ DELETE PRODUCT to the cart
 REMOVE PRODUCT to the cart
 MODIFY THE PRODUCTS to the cart
 ADD THE PRODUCTS to the cart
+
+dynamic html content
+this referes to the html content that change when the js is init
+
+
+changing the css this is how everythign is made
+document.getElementById(id).style.property= new style
+
+html allow only one oneclick on the attribute

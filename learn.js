@@ -34,3 +34,8 @@ document.getElementsByTagName("p")[0].innerHTML = "Hello";
 // to change the atrribute of an image
 // here we want to change our image tot he new image
 document.getElementById("my-image").src="landscape.jpg"
+
+// to change the css this is how everything is made
+document.getElementById(id).style.property=newstyle;
+document.getElementById(id).style.color="blue";
+document.getElementById("my-new").style.backgroundColor="red";
