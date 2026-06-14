@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <script src="./learn.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
 <div id="container1"></div>
@@ -26,6 +27,37 @@ click me</button>
   <p id="more" style="display:none">We have alot to talk about in the house so everyone be there on time</p>
   <button id ="again"onclick="document.getElementById('more').style.display='block'">read moree...</button>
 
+
+</div>
+<div id="big-div" class="bg-amber-700 h-48 w-96 p-4">
+  <p class="unique">here I am the biggest div</p>
+
+  <button onclick="
+    let div = document.getElementById('big-div');
+
+    div.classList.remove('bg-amber-700');
+    div.classList.add('bg-amber-200');
+
+    document.querySelector('.unique').textContent = 'Am Unique';
+  ">
+    change
+  </button>
+</div>
+
+<div>
+    <p>this is the form</p>
+
+    <input 
+    id="number" 
+    type="number" 
+    class="bg-gray-200 border border-black no-spinner"/>
+
+    <p id="error"></p>
+
+    <button 
+    type="button"
+    class="bg-blue-500 p-2 rounded-md m-9" 
+    onclick="validateMe()">send</button>
 </div>
 </body>
 </html>

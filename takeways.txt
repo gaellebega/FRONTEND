@@ -95,3 +95,5 @@ changing the css this is how everythign is made
 document.getElementById(id).style.property= new style
 
 html allow only one oneclick on the attribute
+
+for the tailwind to work you have to put in this <script src="https://cdn.tailwindcss.com"></script>
