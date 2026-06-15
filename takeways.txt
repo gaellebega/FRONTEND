@@ -107,3 +107,13 @@ the common validation attributes are
 <input type="number">    <!-- Must be a number -->
 <input min="1">          <!-- Minimum value -->
 <input max="100">        <!-- Maximum value -->
+
+
+GET used to get the data from the server
+POST used to create the data from the server
+PUT used to replace the exsting data from the server
+DELETE used to delete the data from the server
+
+put and delete and patch mainly uses the js
+for post it is seen in the url that is why when you search you can be able to see
+/?search=phone
