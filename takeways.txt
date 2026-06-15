@@ -117,3 +117,5 @@ DELETE used to delete the data from the server
 put and delete and patch mainly uses the js
 for post it is seen in the url that is why when you search you can be able to see
 /?search=phone
+
+REMEBER TO ADD THE defer in ALL THE SCRIPT OF YOUR JS FILE SO THAT  when you have more than one files the browser have to lad them all at the same time
