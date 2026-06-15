@@ -124,3 +124,9 @@ REMEBER TO ADD THE defer in ALL THE SCRIPT OF YOUR JS FILE SO THAT  when you hav
 
 keydown this is all the events that might happen weh you touch they key
 keyup this refers to all the evenets that might happen when you finish to type
+
+
+if you are getting the git warning then you have to run this
+*text=auto eol=lf
+if that is not working then we have to write something like this
+git add --renormalize .

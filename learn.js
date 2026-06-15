@@ -63,3 +63,8 @@ const form=document.querySelector("form")
 form.addEventListener("submit",()=>{
 alert("form successfully submitted")
 })
+
+const textword=document.getElementById("texts")
+window.addEventListener("scroll",()=>{
+  textword.textContent="You are scrolling...";
+})

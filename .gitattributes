@@ -1,1 +1,2 @@
-* text=auto
+# treat all the files normally but always use LF (lunix style line endings)
+* text=auto eol=lf
