@@ -58,3 +58,8 @@ function validateMe() {
 
   document.getElementById("error").innerHTML = message;
 }
+
+const form=document.querySelector("form")
+form.addEventListener("submit",()=>{
+alert("form successfully submitted")
+})

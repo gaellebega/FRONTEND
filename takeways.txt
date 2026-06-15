@@ -11,6 +11,7 @@ justify-around
 justify-evenly
 
 
+
 ALIGN ITEMS
 ALSO USED IN FLEX ROWS | it works with height
 
@@ -119,3 +120,7 @@ for post it is seen in the url that is why when you search you can be able to se
 /?search=phone
 
 REMEBER TO ADD THE defer in ALL THE SCRIPT OF YOUR JS FILE SO THAT  when you have more than one files the browser have to lad them all at the same time
+
+
+keydown this is all the events that might happen weh you touch they key
+keyup this refers to all the evenets that might happen when you finish to type
