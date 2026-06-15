@@ -97,3 +97,13 @@ document.getElementById(id).style.property= new style
 html allow only one oneclick on the attribute
 
 for the tailwind to work you have to put in this <script src="https://cdn.tailwindcss.com"></script>
+
+
+the common validation attributes are 
+<input required>          <!-- Must not be empty -->
+<input minlength="3">    <!-- At least 3 characters -->
+<input maxlength="20">   <!-- Maximum 20 characters -->
+<input type="email">     <!-- Must look like an email -->
+<input type="number">    <!-- Must be a number -->
+<input min="1">          <!-- Minimum value -->
+<input max="100">        <!-- Maximum value -->
