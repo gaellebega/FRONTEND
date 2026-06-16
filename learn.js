@@ -73,6 +73,30 @@ window.addEventListener("scroll",()=>{
 
 // TIMING EVENTS
 // this will change after 3 seconds of loading
+// 1.settimeout
 setTimeout(()=>{
   document.getElementById("big").textContent="change after 3 seconds";
 },3000);
+
+// 2.setinterval
+let seconds=0;
+let minutes=0;
+let hours=0;
+setInterval(()=>{
+  seconds++;
+  if (seconds==60){
+    seconds=0;
+    minutes++;
+  }
+  if (minutes==60){
+    minutes=0;
+    hours++;
+  }
+  document.getElementById("hours").textContent=
+  String(hours).padStart(2,"0")+":";
+  document.getElementById("minutes").textContent=
+  String(minutes).padStart(2,"0")+":";
+  document.getElementById("seconds").textContent=
+  String(seconds).padStart(2,"0");
+
+},1000);

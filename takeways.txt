@@ -130,3 +130,11 @@ if you are getting the git warning then you have to run this
 *text=auto eol=lf
 if that is not working then we have to write something like this
 git add --renormalize .
+
+
+padstart is js method that is used to add the characters to the beginning og a string until it reaches a specified lenth
+
+string.padStart(targetlenth,padstring)
+let num="3";
+//this means go then take the existing num then in front of it add number 0 so that the length becomes 2
+console.log(num.padStart(2,"0"));
