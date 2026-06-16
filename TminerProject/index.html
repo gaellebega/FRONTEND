@@ -4,21 +4,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="./script.js" defer></script>
   <title>Bega's timeeeeee</title>
 </head>
-
-<body class="flex justify-center items-center min-h-screen bg-black">
+<body class=" bg-black"">
+<div class="flex justify-center items-center min-h-screen">
   <div class="text-center">
   <h2 class="text-pink-800 font-bold text-7xl mb-5">MY TIMER</h2>
   <div class="flex gap-4  ">
-    <p id="hours" class="font-bold text-9xl bg-pink-400 p-2 rounded-xl">00</p>
-    <p id="minutes" class="font-bold text-9xl bg-pink-400 p-2 rounded-xl">00</p>
-    <p id="seconds" class="font-bold text-9xl bg-pink-400 p-2 rounded-xl">00</p>
+    <p id="hours" class="font-bold text-9xl bg-pink-400 p-2 rounded-xl scale-y-125" style="font-family: 'JetBrains Mono', monospace;">00</p>
+    <p id="minutes" class="font-bold text-9xl bg-pink-400 p-2 rounded-xl scale-y-125" style="font-family: 'JetBrains Mono', monospace;">00</p>
+    <p id="seconds" class="font-bold text-9xl bg-pink-400 p-2 rounded-xl scale-y-125" style="font-family: 'JetBrains Mono', monospace;">00</p>
   </div>
 </div>
-<button class="text-amber-50 bg-pink-800">RESET</button>
+
+</div>
+<div class="flex gap-3 bg-red-50 w-80  font-bold text-2xl  ">
+<button id="start" class="text-amber-50 bg-pink-800 p-3 rounded-lg">START</button><br>
+<button id="stop" class="text-amber-50 bg-pink-800 p-3 rounded-lg">STOP</button><br>
+<button id="resume" class="text-amber-50 bg-pink-800 p-3 rounded-lg">RESUME</button><br>
+<button id="reset" class="text-amber-50 bg-pink-800 p-3 rounded-lg">RESET</button><br>
+</div>
 </body>
 </html>
