@@ -65,6 +65,14 @@ alert("form successfully submitted")
 })
 
 const textword=document.getElementById("texts")
+// textword.textContent="heyyy";
 window.addEventListener("scroll",()=>{
+ console.log("scrolling..")   
   textword.textContent="You are scrolling...";
 })
+
+// TIMING EVENTS
+// this will change after 3 seconds of loading
+setTimeout(()=>{
+  document.getElementById("big").textContent="change after 3 seconds";
+},3000);
