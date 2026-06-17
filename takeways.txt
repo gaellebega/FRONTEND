@@ -145,3 +145,10 @@ setTimeout() set a clock timeout(runs once): wait until amount of time then the 
 setInterval() sets a clock interval(runs repeatedy):runs code after every time speciied ex ater every sec a clock ticks
 clearTimeout() clears the tieout
 clearInterval() this clears an interval
+
+Event Management is about adding, removing, and controlling events.
+
+
+the way the removeEventListener is used
+element.removeEventListener(eventType, functionName);
+the role is to remove the event which was previously there
