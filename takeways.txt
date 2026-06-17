@@ -138,3 +138,10 @@ string.padStart(targetlenth,padstring)
 let num="3";
 //this means go then take the existing num then in front of it add number 0 so that the length becomes 2
 console.log(num.padStart(2,"0"));
+
+TIMER FUNCTIONS
+
+setTimeout() set a clock timeout(runs once): wait until amount of time then the code runs
+setInterval() sets a clock interval(runs repeatedy):runs code after every time speciied ex ater every sec a clock ticks
+clearTimeout() clears the tieout
+clearInterval() this clears an interval
