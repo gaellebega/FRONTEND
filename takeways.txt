@@ -152,3 +152,5 @@ Event Management is about adding, removing, and controlling events.
 the way the removeEventListener is used
 element.removeEventListener(eventType, functionName);
 the role is to remove the event which was previously there
+
+youc an give the button type like reset submit and button
