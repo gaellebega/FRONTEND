@@ -21,11 +21,11 @@ function addTask(){
 }
 
 listContainer.addEventListener("click",(e)=>{
-  if(e.target.tagName==="LI"){
+  if(e.target.tagName === "LI"){
     e.target.classList.toggle("checked");
     saveData();
   }
-  else if(e.target.tagName==="SPAN"){
+  else if(e.target.tagName === "SPAN"){
     e.target.parentElement.remove();
     saveData();
   }
@@ -33,7 +33,8 @@ listContainer.addEventListener("click",(e)=>{
 
 
 function saveData(){
-  // to store  the new data that is added
+  // to store  the new data that is added 
+  //localstorage.setItem("name of data saved",listContainer.innerHTML)
   localStorage.setItem("add",listContainer.innerHTML);
   // whenever we add any changes then we have to call the save data
 }

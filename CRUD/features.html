@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Methods Demo</title>
+</head>
+<body>
+
+  <h2 id="title">Hello World</h2>
+
+  <img id="photo" width="200">
+
+  <br><br>
+
+  <button id="changeImage">Change Image</button>
+  <button id="changeText">Change Text</button>
+  <button id="toggleBox">Toggle Box</button>
+  <button id="editText">Enable Editing</button>
+
+  <br><br>
+
+  <div id="box">
+    I can be hidden and shown.
+  </div>
+
+  <br>
+
+  <p id="note">
+    Click the button to make me editable.
+  </p>
+
+  <script>
+    let photo = document.getElementById("photo");
+    let title = document.getElementById("title");
+    let box = document.getElementById("box");
+    let note = document.getElementById("note");
+
+    // setAttribute()
+    document.getElementById("changeImage").onclick = function () {
+      photo.setAttribute(
+        "src",
+        "https://picsum.photos/200"
+      );
+      photo.setAttribute(
+        "alt",
+        "Random Image"
+      );
+    };
+
+    // textContent
+    document.getElementById("changeText").onclick = function () {
+      title.textContent = "JavaScript is Awesome!";
+    };
+
+    // toggle()
+    document.getElementById("toggleBox").onclick = function () {
+      box.classList.toggle("hidden");
+    };
+
+    // contentEditable
+    document.getElementById("editText").onclick = function () {
+      note.contentEditable = true;
+      note.textContent += " (Now you can edit me)";
+    };
+  </script>
+
+  <style>
+    .hidden {
+      display: none;
+    }
+
+    #box {
+      padding: 10px;
+      border: 1px solid black;
+      width: 200px;
+    }
+  </style>
+
+</body>
+</html>

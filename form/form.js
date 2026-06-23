@@ -9,7 +9,7 @@ function validateName() {
   }
 }
 
-function handleSubmit(e){
-  e.preventDefault();
-  alert("Form Submitted");
-}
+// function handleSubmit(e){
+//   e.preventDefault();
+//   alert("Form Submitted");
+// }
