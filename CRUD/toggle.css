@@ -1,0 +1,64 @@
+body{
+  font-family: Arial;
+  padding:20px;
+}
+
+.card{
+  border:1px solid gray;
+  padding:15px;
+  width:250px;
+}
+
+.hidden{
+  display:none;
+}
+
+.dark{
+  background:black;
+  color:white;
+}
+
+.completed{
+  text-decoration:line-through;
+  color:gray;
+}
+
+.selected{
+  border:3px solid blue;
+}
+
+.bold{
+  font-weight:bold;
+}
+
+.big-text{
+  font-size:1.5rem;
+}
+
+.blur{
+  filter:blur(4px);
+}
+
+.online{
+  color:green;
+  font-weight:bold;
+}
+
+.rotate{
+  display:inline-block;
+  transform:rotate(180deg);
+}
+
+.bounce{
+  animation:bounce .5s infinite alternate;
+}
+
+@keyframes bounce{
+  from{
+    transform:translateY(0);
+  }
+
+  to{
+    transform:translateY(-15px);
+  }
+}
