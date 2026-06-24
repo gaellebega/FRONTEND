@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Student Dashboard</h1>
+
+  <button id="darkBtn">🌙 Dark Mode</button>
+
+  <hr>
+
+  <h2>Profile</h2>
+
+  <p id="status">Offline</p>
+  <button id="statusBtn">Toggle Status</button>
+
+  <button id="selectBtn">Select Profile Card</button>
+
+  <div id="profileCard" class="card">
+    <h3 id="name">Gaelle Bega</h3>
+    <p>Computer Science Student</p>
+  </div>
+
+  <hr>
+
+  <h2>Study Notes</h2>
+
+  <button id="showNotesBtn">Show / Hide Notes</button>
+
+  <div id="notes">
+    <p>
+      JavaScript is used to add interactivity to web pages.
+    </p>
+  </div>
+
+  <button id="boldBtn">Bold Notes</button>
+  <button id="fontBtn">Increase Font Size</button>
+
+  <hr>
+
+  <h2>Private Information</h2>
+
+  <p id="secret">
+    Exam Score: 95%
+  </p>
+
+  <button id="blurBtn">Blur Information</button>
+
+  <hr>
+
+  <h2>Tasks</h2>
+
+  <ul>
+    <li id="task1">Finish JavaScript DOM</li>
+    <li id="task2">Learn Tailwind CSS</li>
+  </ul>
+
+  <button id="taskBtn">Complete Task 1</button>
+
+  <hr>
+
+  <h2>Resources</h2>
+
+  <button id="dropdownBtn">
+    Resources
+    <span id="arrow">▼</span>
+  </button>
+
+  <div id="resources" class="hidden">
+    <p>MDN Docs</p>
+    <p>JavaScript.info</p>
+    <p>Tailwind CSS</p>
+  </div>
+
+  <hr>
+
+  <h2>Motivation</h2>
+
+  <div id="ball">⚽</div>
+
+  <button id="animateBtn">
+    Start / Stop Animation
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>

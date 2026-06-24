@@ -159,3 +159,7 @@ required on the inputs is used to give use the default form validation
 document.Forms(); returning all the form elements of the document
 .value to change the input field
 document.tittle(); used to get the title of the form
+
+WE USE the toggle for the on and off
+we use the 
+sample page of all that features you have said of toggle feautures?
