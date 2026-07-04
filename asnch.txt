@@ -1,0 +1,18 @@
+the 
+ "https://jsonplaceholder.typicode.com/todos/?t=" + new Date().getTime()
+); that new date is used to prevent the caseh which wa giving use the error 304 to make it to success of 200 sot hat everything can now fall into place  to 200 OK which is a success
+
+in the response is where we have all our data
+
+//HOW DO WE ACCESS OUR DAT THEN?
+
+//stages of the request
+
+| State | Meaning                          |
+|                                          |
+| 0  UNSENT    | You haven’t ordered yet   |
+| 1   OPENEND request.open | You placed the order      |
+| 2   HEADERS_RECEIVED  request.send| Restaurant accepted order |
+| 3   LOADING  | Food is being cooked      |
+| 4   DONE     | Food is delivered         |
+good combo usgae when the request is 4 then get error 200 like everything is now done
