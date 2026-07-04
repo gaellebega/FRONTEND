@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <script>
+
+    //JSON DATA
+
     // the way the request object is created
 const request=new XMLHttpRequest();
 //stages changes
@@ -12,7 +15,7 @@ request.addEventListener("readystatechange",()=>{
   //make request then send it and everytime there is a set request then its gonna read that to the console and you can see them in the consoele and they are 4 in total
   // console.log(request,request.readyState);
   if (request.readyState===4){
-    //after all the request stages are successfull you can be able to get the requested data
+    //after all the request stages are successfull you can be able to get the requested which is what we call jsaon data have json strings
 console.log(request.responseText);
   }
 });
