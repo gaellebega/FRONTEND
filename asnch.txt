@@ -20,5 +20,5 @@ good combo usage when the request is 4 then get error 200 like everything is now
 Informational responses (100 – 199)
 Successful responses (200 – 299)
 Redirection messages (300 – 399)
-Client error responses (400 – 499)
+Client error responses (400 – 499)//errors in the browser like wrong end point and so and so on
 Server error responses (500 – 599)
