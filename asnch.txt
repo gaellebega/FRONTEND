@@ -16,3 +16,10 @@ in the response is where we have all our data
 | 3   LOADING  | Food is being cooked      |
 | 4   DONE     | Food is delivered         |
 good combo usgae when the request is 4 then get error 200 like everything is now done
+
+INFORMATION RESPONSE RANGES
+Informational responses (100 – 199)
+Successful responses (200 – 299)
+Redirection messages (300 – 399)
+Client error responses (400 – 499)
+Server error responses (500 – 599)
