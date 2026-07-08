@@ -9,7 +9,7 @@ request.addEventListener("readystatechange", () => {
         console.log("Could not fetch the data!")
     }
 });
-request.open("GET", "https://jsonplaceholder.typicode.com/todos/?t=" + new Date().getTime());
+request.open("GET", "todo.json" + new Date().getTime());
 request.send();
 getTodos((err,data)=>{
     console.log("callback fired");

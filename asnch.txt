@@ -22,3 +22,12 @@ Successful responses (200 – 299)
 Redirection messages (300 – 399)
 Client error responses (400 – 499)//errors in the browser like wrong end point and so and so on
 Server error responses (500 – 599)
+
+
+JSON FORMAT
+this is the way that data are written as the js objects in [] but theya re absically it is the strings
+=>it has to be the strings cz when the browser have to change the data it has to be in the strings format
+
+javascriot object notation JSON
+the difference between the normal object and the json object is this the json objects can not be writtn in the single quotes they are always the double quotes
+but the numbers do not have to be in the double quotes and boolean values
