@@ -37,13 +37,10 @@
 
     }
     getTodos("todos/todo.json",(err, data)=>{
-      console.log("callback fired");
-      if (err) {
-        console.log(err);
-      }
-      else {
-        console.log(data)
-      }
+      console.log(data);
+getTodos("todos/legit.json",(err,data)=>{
+console.log(data)
+})
     });
 
   </script>
