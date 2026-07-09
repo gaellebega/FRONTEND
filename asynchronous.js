@@ -1,5 +1,5 @@
 //JSON DATA
-const getTodos=(callback)=>{
+const getTodos=(resource,callback)=>{
 const request = new XMLHttpRequest();
 request.addEventListener("readystatechange", () => {
     if (request.readyState === 4 && request.status === 200) {
@@ -9,15 +9,12 @@ request.addEventListener("readystatechange", () => {
         console.log("Could not fetch the data!")
     }
 });
-request.open("GET", "todo.json" + new Date().getTime());
+request.open("GET", "todo.json");
 request.send();
 getTodos((err,data)=>{
-    console.log("callback fired");
-    if (err){
-        console.log(err);
-    }
-    else{
-        console.log(data)
-    }
+    console.log(data);
+getTodos((err,data)=>{
+    console.log(data)
+})
 })
 }

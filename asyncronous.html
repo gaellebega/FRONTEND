@@ -8,7 +8,7 @@
   <script>
 
     //JSON DATA
-    const getTodos = (callback) => {
+    const getTodos = (resource,callback) => {
       // the way the request object is created
       const request = new XMLHttpRequest();
       //stages changes
@@ -17,17 +17,17 @@
         // console.log(request,request.readyState);
         if (request.readyState === 4 && request.status === 200) {
           //after all the request stages are successfull you can be able to get the requested which is what we call jsaon data have json strings
-          const data=JSON.parse(request.responseText);
-          callback(undefined,data)
+          const data = JSON.parse(request.responseText);
+          callback(undefined, data);
         }
         //this means if the ready state id 4 but the status is not equal to 200
         else if (request.readyState === 4) {
-          callback("Could not fetch the data!",undefined)
+          callback("Could not fetch the data!", undefined)
         }
       });
       // what we nend to make the request we need 2 things
       // we need the request(GET,PUT,POST) and another argument of the end point
-      request.open("GET", "https://jsonplaceholder.typicode.com/todos/?t=" + new Date().getTime());
+      request.open("GET","todos/todo.json");
       // The above we have told our request type is and where is is going to get the data from
       //to send the request
       request.send();
@@ -36,11 +36,11 @@
       //we first need to pass thorugh the request changes stages which are  4 in totoal
 
     }
-    getTodos("todos/todo.json",(err, data)=>{
+    getTodos("todos/todo.json", (err, data) => {
       console.log(data);
-getTodos("todos/legit.json",(err,data)=>{
-console.log(data)
-})
+      getTodos("todos/legit.json", (err, data) => {
+        console.log(data)
+      });
     });
 
   </script>
