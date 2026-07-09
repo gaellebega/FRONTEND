@@ -3,18 +3,22 @@ const getTodos=(resource,callback)=>{
 const request = new XMLHttpRequest();
 request.addEventListener("readystatechange", () => {
     if (request.readyState === 4 && request.status === 200) {
-        console.log(request.responseText);
+        const data=JSON.parse(request.responseText);
+        callback(undefined,data);
     }
     else if (request.readyState === 4) {
-        console.log("Could not fetch the data!")
+        callback("Could not fetch the data!")
     }
 });
 request.open("GET", "todo.json");
 request.send();
-getTodos((err,data)=>{
+getTodos("todos/legit.json",(err,data)=>{
     console.log(data);
-getTodos((err,data)=>{
+getTodos("todos/todo.json",(err,data)=>{
     console.log(data)
+    getTodos("todos/damy.json",(err,data)=>{
+        console.log(data);
+    })
 })
 })
 }

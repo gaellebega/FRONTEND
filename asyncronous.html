@@ -27,7 +27,7 @@
       });
       // what we nend to make the request we need 2 things
       // we need the request(GET,PUT,POST) and another argument of the end point
-      request.open("GET","todos/todo.json");
+      request.open("GET",resource);
       // The above we have told our request type is and where is is going to get the data from
       //to send the request
       request.send();
@@ -36,10 +36,16 @@
       //we first need to pass thorugh the request changes stages which are  4 in totoal
 
     }
-    getTodos("todos/todo.json", (err, data) => {
+
+    //we call each function by nesting each files inside the callback function
+
+    getTodos("todos/todo.json",(err,data)=>{
       console.log(data);
-      getTodos("todos/legit.json", (err, data) => {
+      getTodos("todos/legits.json",(err,data) =>{
         console.log(data)
+        getTodos("todos/damy.json",(err,data)=>{
+          console.log(data)
+        });
       });
     });
 
