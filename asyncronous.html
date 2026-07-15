@@ -40,7 +40,7 @@
     //we call each function by nesting each files inside the callback function
 
     getTodos("todos/todo.json",(err,data)=>{
-      console.log(data);
+      document.getElementById('output').innerHTML += JSON.stringify(data) + '<br>';
       getTodos("todos/legits.json",(err,data) =>{
         console.log(data)
         getTodos("todos/damy.json",(err,data)=>{
@@ -53,7 +53,7 @@
 </head>
 
 <body>
-
+  <div id="output"></div>
 </body>
 
 </html>

@@ -4,10 +4,10 @@ const request = new XMLHttpRequest();
 request.addEventListener("readystatechange", () => {
     if (request.readyState === 4 && request.status === 200) {
         const data=JSON.parse(request.responseText);
-        callback(undefined,data);
+        callback(undefined,data);//resolve(data)
     }
     else if (request.readyState === 4) {
-        callback("Could not fetch the data!")
+        callback("Could not fetch the data!")//
     }
 });
 request.open("GET", "todo.json");
