@@ -18,6 +18,7 @@
     console.log(status);
     return "order is being shipped";
    })
+   //the shipping is taking the value .then previously had
    .then((shipping)=>{
     console.log(shipping);
    })
