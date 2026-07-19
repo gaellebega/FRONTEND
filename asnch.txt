@@ -31,3 +31,11 @@ this is the way that data are written as the js objects in [] but theya re absic
 javascriot object notation JSON
 the difference between the normal object and the json object is this the json objects can not be writtn in the single quotes they are always the double quotes
 but the numbers do not have to be in the double quotes and boolean values
+
+
+CHAINING THE PROMISE 
+
+.finally() does NOT print the latest message.
+It prints its own message because it does not receive the previous value.
+
+for the .catch we only need to have one so that we can run it everytime we see the error
