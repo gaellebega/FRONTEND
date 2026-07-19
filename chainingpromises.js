@@ -24,6 +24,9 @@
    .catch((error)=>{
     console.log(error);
    })
-   .finally((output)=>{
+   .finally(()=>{
     console.log("process finished")
    })
+
+   //the chain is we have promise resolve then
+  //  the promise reject then catch
