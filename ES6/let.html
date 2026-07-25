@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ES6</title>
+</head>
+
+<body>
+  <ul class="items">
+    <li>first</li>
+    <li>second</li>
+    <li>thirdd</li>
+  </ul>
+  <script>
+    windowlonload=function(){
+    var items = document.getElementsByClassName("li")
+    for (var x = 0; x < items.length; x++) {
+      items[x].onclick = function () {
+        console.log(x);
+      }
+    }
+  }
+  </script>
+</body>
+
+</html>
