@@ -1,0 +1,56 @@
+| Syntax             | Meaning                                             |
+| ------------------ | --------------------------------------------------- |
+| `let`              | Variable that can change                            |
+| `const`            | Variable that cannot be reassigned                  |
+| `=>`               | Arrow function                                      |
+| `` ` ` ``          | Template literal (backticks)                        |
+| `${}`              | Insert a variable into a template literal           |
+| `{}`               | Object or code block                                |
+| `[]`               | Array                                               |
+| `()`               | Function parameters or function call                |
+| `...`              | Spread (copy/merge) or Rest (collect values)        |
+| `=`                | Assignment                                          |
+| `==`               | Loose equality (avoid when possible)                |
+| `===`              | Strict equality (recommended)                       |
+| `!=`               | Loose not equal                                     |
+| `!==`              | Strict not equal                                    |
+| `>`                | Greater than                                        |
+| `<`                | Less than                                           |
+| `>=`               | Greater than or equal                               |
+| `<=`               | Less than or equal                                  |
+| `&&`               | AND                                                 |
+| `\|\|`             | OR                                                  |
+| `!`                | NOT                                                 |
+| `?.`               | Optional chaining                                   |
+| `??`               | Nullish coalescing (default for `null`/`undefined`) |
+| `? :`              | Ternary operator                                    |
+| `import`           | Bring code from another file                        |
+| `export`           | Share code from a file                              |
+| `export default`   | Export one main thing from a file                   |
+| `return`           | Return a value from a function                      |
+| `async`            | Declare an asynchronous function                    |
+| `await`            | Wait for a Promise to finish                        |
+| `.then()`          | Handle a successful Promise                         |
+| `.catch()`         | Handle a failed Promise                             |
+| `.finally()`       | Run code whether it succeeds or fails               |
+| `new`              | Create an instance of a class/object                |
+| `class`            | Define a blueprint for objects                      |
+| `extends`          | Inherit from another class                          |
+| `super()`          | Call the parent class constructor                   |
+| `this`             | Refers to the current object                        |
+| `for...of`         | Loop through array values                           |
+| `for...in`         | Loop through object keys                            |
+| `map()`            | Transform each item                                 |
+| `filter()`         | Keep matching items                                 |
+| `find()`           | Find the first matching item                        |
+| `reduce()`         | Combine items into one value                        |
+| `forEach()`        | Run a function for each item                        |
+| `some()`           | At least one item matches                           |
+| `every()`          | All items match                                     |
+| `includes()`       | Check if a value exists                             |
+| `Object.keys()`    | Get object keys                                     |
+| `Object.values()`  | Get object values                                   |
+| `Object.entries()` | Get key-value pairs                                 |
+| `JSON.stringify()` | Object → JSON string                                |
+| `JSON.parse()`     | JSON string → Object                                |
+| `fetch()`          | Make an HTTP request                                |
